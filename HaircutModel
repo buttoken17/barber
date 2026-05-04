@@ -1,0 +1,27 @@
+{
+  "name": "HaircutModel",
+  "type": "object",
+  "properties": {
+    "model": {
+      "type": "string",
+      "title": "Nama Model"
+    },
+    "price": {
+      "type": "number",
+      "title": "Harga"
+    },
+    "image_url": {
+      "type": "string",
+      "title": "Gambar URL"
+    },
+    "active": {
+      "type": "boolean",
+      "title": "Aktif",
+      "default": true
+    }
+  },
+  "required": [
+    "model",
+    "price"
+  ]
+}
